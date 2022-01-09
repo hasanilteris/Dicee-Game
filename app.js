@@ -1,7 +1,5 @@
 var randomNumber1 = Math.floor(Math.random() * 6) + 1; // sayı seçimi
-
 var randomDiceImage = "dice" + randomNumber1 + ".png";  // resimler
-
 var randomImageSource = "images/" + randomDiceImage; 
 
 var image1 = document.querySelectorAll("img")[0];
